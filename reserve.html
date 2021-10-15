@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YBIKE | Reserve</title>
+    <link rel="shorcut icon" href="./Assets/Logo_YBike_Monokrom.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <a href="./home.html">
+                <img src="./Assets/Logo_YBike_Monokrom.png" alt="">
+            </a>
+        </div>
+        <div id="navigator">
+            <ul>
+                <li>
+                    <a href="./home.html">
+                        <p>HOME</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./products.html">
+                        <p>PRODUCTS</p>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="./vixian.html">
+                                <p>Vixian</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./kawasako.html">
+                                <p>Kawasako</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./gallery.html">
+                        <p>GALLERY</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./reserve.html">
+                        <p>RESERVE</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="contentReserve">
+        <div id="reserveHeading">
+            <p>RESERVE A MOTORCYCLE</p>
+        </div>
+        <hr>
+        <div id="formHolder">
+            <form action="" onsubmit="return SubmitForm(this)">
+                <div>
+                    <div>
+                        Product
+                    </div>
+                    <div class="formbar">
+                        <input type="text" name="product" id="product" placeholder="Enter the product name" size="35">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        Quantity
+                    </div>
+                    <div class="formbar">
+                        <input type="number" name="quantity" id="quantity" placeholder="Enter the quantity" min="1" size="35">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        Color
+                    </div>
+                    <div class="formbar">
+                        <select name="color" id="color">
+                            <option value="" hidden>Choose the Color</option>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Grey">Grey</option>
+                            <option value="LightGreen">Light Green</option>
+                            <option value="DarkBlue">Dark Blue</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        Name
+                    </div>
+                    <div class="formbar">
+                        <input type="text" name="name" id="name" placeholder="Enter your name" size="35">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        Phone
+                    </div>
+                    <div class="formbar">
+                        <input type="text" name="phone" id="phone" placeholder="Enter your phone number" size="35">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        Address
+                    </div>
+                    <div class="formbar">
+                        <textarea name="address" id="address" placeholder="Enter your address" rows="4" cols="39"></textarea>
+                    </div>
+                </div>
+                <div id="reserveBtn">
+                    <button type="submit">Reserve</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footerText">
+            <p>© 2016 YBIKE</p>
+        </div>
+        <div id="socials">
+            <div class="socialsLogo">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="./Assets/facebookLogo.png" alt="facebookLogo">
+                </a>
+            </div>
+            <div class="socialsLogo">
+                <a href="https://instagram.com" target="_blank">
+                    <img src="./Assets/instagramLogo.png" alt="instagramLogo">
+                </a>
+            </div>
+            <div class="socialsLogo">
+                <a href="https://twitter.com" target="_blank">
+                    <img src="./Assets/twitterLogo.png" alt="twitterLogo">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
